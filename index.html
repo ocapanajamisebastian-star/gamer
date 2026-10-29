@@ -8,47 +8,126 @@
          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+<div class="container-fluid" >
+    <div class="container-fluid p-0">
+    <div class="row g-0">
+        <div class="col-12">
+            <nav class="navbar navbar-expand-lg navbar-dark"
+                 style="background-color: rgb(85, 70, 220);">
 
-    <div class="container-fluid">
-            <div class="row mb-2 align-items-enter rounded-3" style="background-color: rgba(138, 166, 36,1);" >
-                <div class=" col-6 col-xl-6">
-                    <img src="imagenes/nankay.jpg" alt="logo" class="img-fluid rounded w-75">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#menu"
+                            aria-controls="menu"
+                            aria-expanded="false"
+                            aria-label="Abrir menú">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="menu">
+                        <ul class="navbar-nav mb-2">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#descripcion">Descripción</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#videojuegos">Videojuegos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#premios">Premios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#ubicacion">Ubicación</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#inscripcion">Inscripción</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>
+</div>
+
+        <div
+    class="bg-image"
+    style="
+        background-image: url('imagenes/banner.png');
+        w-100;
+        background-size: cover;
+        background-position: center;
+    "
+>
+    <!-- Degradado sobre toda la imagen -->
+    <div class="mask h-100"
+         style="background: linear-gradient(
+             135deg,
+             rgba(178, 60, 253, 0.6),
+             rgba(66, 105, 133, 0.7)
+         );">
+
+        <div class="d-flex justify-content-center align-items-center h-100">
+             <div class=" col-6 col-xl-6">
+                    <img src="imagenes/logo.png" alt="logo" class="img-fluid rounded w-75">
                 </div>
                 <div class="col-6 col-xl-6 d-flex justify-content-center align-items-center">
-                    <figure class="text-center mb-0">
+                    <figure class="text-center">
                         <blockquote class="blockquote">
-                            <h2 class="display-4 fw-bold"><strong>GAMER FEST ESPE 2027</strong>.</h2>
+                            <h4 class="display-6 fw-bold text-white"><strong>GAMER FEST ESPE 2027</strong>.</h4>
                         </blockquote>
                         
                     </figure>           
                 </div>
-            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
         
    </div>
 </head>
 <body>
     <main>
-         <div class="container-fluid">
-                <div class="row text-center">
+        <section id="descripcion" class="container py-5">
+            <div class="container-fluid">
+                 <div class="card border-5 rounded-3 card-edificio">
+    <div class="card-body">
+        <div class="row text-justify">
                     <div class="col-12 col-xl6">
-                        <h1>Titulo</h1>
-                        <p>descripcion del evento</p>
-                        <button type="button" class="btn btn-warning">Inscribete Ahora</button>
+                        <h1>LA ESPE ENTRA EN MODO GAMER</h1>
+                        <p>La carrera de Ingeniería en Software se complace en invitar a todos los estudiantes de los diferentes niveles a ser parte del <strong>GAMER FEST</strong>, un evento creado para desconectarnos por un momento del estrés académico, compartir con nuestros compañeros y disfrutar de una tarde llena de diversión, emoción y espíritu competitivo.</p>
+                           <p> Prepárate para vivir una experiencia diferente, participar en emocionantes torneos y demostrar tus habilidades en distintos videojuegos. Será la oportunidad perfecta para conocer a otros apasionados del gaming, fortalecer los lazos de nuestra comunidad universitaria y descubrir quiénes están listos para conquistar la victoria.
+ ¡Reúne a tus amigos, acepta el desafío y prepárate para jugar!
+¡El siguiente nivel comienza aquí!</p>
+                            <div class="text-center">
+                            <button type="button center" class="btn btn-warning"><a href="#inscripcion">Inscribete Ahora</a></button>
+                            </div>
+                        
                     </div>
                 </div>
-            </div>
-            
-            <div class="container-fluid">
-                <div class="row text-center">
+            </div></div>
+  </div>
+                
+</section>
+         <section id="videojuegos" class="container py-5">
+             <div class="container-fluid">
+                 <div class="card roounded-3">
+    <div class="card-body">
+        <div class="row text-center">
                         <div class="col-12  col-xl-6 mb-4">
                         <div class="row align-items-center">
                             <div class="col-5 col-lg-12 order-1 order-lg-2">
-                                <img src="imagenes/macetas2.jpg"
+                                <img src="imagenes/lol.jpg"
                                     alt="Macetas decorativas"
-                                    class="rounded-3 img-fluid w-75">
+                                    class="rounded-3 img-fluid w-50">
                             </div>
                             <div class="col-7 col-lg-12 order-1 order-lg-2 mt-2">
-                                <p>descripcion del jeugo</p>
+                                <p>modalidad por equipos</p>
+                                <p>Forma tu equipo y prepárate para una batalla estratégica donde la comunicación, la coordinación y las decisiones tácticas marcarán la diferencia. Trabaja junto a tus compañeros para destruir el nexo rival y demostrar qué equipo domina la Grieta del Invocador</p>
                             </div>
                         </div>
                     </div>
@@ -56,12 +135,13 @@
                          <div class="col-12  col-xl-6 mb-4">
                         <div class="row align-items-center">
                             <div class="col-5 col-lg-12 order-1 order-lg-2">
-                                <img src="imagenes/macetas2.jpg"
+                                <img src="imagenes/Mortal.png"
                                     alt="Macetas decorativas"
                                     class="rounded-3 img-fluid w-75">
                             </div>
                             <div class="col-7 col-lg-12 order-1 order-lg-2 mt-2">
-                                <p>descripcion del jeugo</p>
+                                <p>modalidad: individual</p>
+                                <p>Enfréntate a otros competidores en combates uno contra uno donde los reflejos, la estrategia y el dominio de los personajes serán fundamentales para alcanzar la victoria. Demuestra tus habilidades en la arena y conviértete en el campeón del torneo</p>
                             </div>
                         </div>
                     </div>
@@ -69,12 +149,13 @@
                          <div class="col-12  col-xl-6 mb-4">
                         <div class="row align-items-center">
                             <div class="col-5 col-lg-12 order-1 order-lg-2">
-                                <img src="imagenes/macetas2.jpg"
+                                <img src="imagenes/crash.jpg"
                                     alt="Macetas decorativas"
                                     class="rounded-3 img-fluid w-75">
                             </div>
                             <div class="col-7 col-lg-12 order-1 order-lg-2 mt-2">
-                                <p>descripcion del jeugo</p>
+                                <p>modalidad:individual</p>
+                                <p>Pisa el acelerador y demuestra que tienes la velocidad y los reflejos necesarios para conquistar la pista. Esquiva obstáculos, domina las curvas y utiliza tus habilidades al volante para cruzar la meta en primer lugar y llevarte la victoria.</p>
                             </div>
                         </div>
                     </div>
@@ -82,24 +163,32 @@
                          <div class="col-12  col-xl-6 mb-4">
                         <div class="row align-items-center">
                             <div class="col-5 col-lg-12 order-1 order-lg-2">
-                                <img src="imagenes/macetas2.jpg"
+                                <img src="imagenes/clash.jpg"
                                     alt="Macetas decorativas"
-                                    class="rounded-3 img-fluid w-75">
+                                    class="rounded-3 img-fluid w-50">
                             </div>
                             <div class="col-7 col-lg-12 order-1 order-lg-2 mt-2">
-                                <p>descripcion del jeugo</p>
+                                <p>modalidad individual/ parejas</p>
+                                <p>Diseña tu mejor mazo, administra el elixir y utiliza tus cartas con inteligencia para derribar las torres de tus rivales. Cada decisión cuenta: demuestra tu estrategia, anticipa los movimientos de tus oponentes y lucha por convertirte en el campeón del torneo.</p>
                             </div>
                         </div>
                     </div>
 
                 </div>
             </div>
+    </div>
+  </div>
+                
 
-            <div class="container-fluid">
-                <div class="row text-center">
+</section>
+            <section id="premios" class="container py-5">
+ <div class="container-fluid">
+    <div class="card">
+    <div class="card-body">
+        <div class="row text-center">
                     <div class="col-12 col-xl-6">
                         <div class="container my-5">
-
+                            <h2>Premios</h2>
                             <div class="accordion accordion-flush" id="accordionFlushExample">
 
                                 <!-- ELEMENTO 1 -->
@@ -113,7 +202,7 @@
                                                 aria-expanded="false"
                                                 aria-controls="flush-collapseOne">
 
-                                                Categorias #1
+                                                Categoria #1 individual
 
                                         </button>
                                     </h2>
@@ -124,9 +213,10 @@
                                         data-bs-parent="#accordionFlushExample">
 
                                         <div class="accordion-body">
-                                            Esta es la descripción del primer elemento.
-                                            Aquí puedes colocar el texto que quieras mostrar
-                                            cuando el usuario haga clic en el encabezado.
+                                            <p><strong>premio al primer lugar:</strong>  el ganador de la competicion individual recibira su trofeo, un MOUSE INALAMBRICO MEETION BTM008 ERGONOMICO BLUETOOTH, una figura colleccionable y una mochila para laptops SwissGear - Synergy Backpack for 16" Laptop - Black/Gray
+ </p>
+                                            <p><strong>el premio al segundo lugar:</strong> el premio al segundo lugar sera una medalla por su participacion, unos audifonos MARVO SCORPION </p>
+                                            <p><strong>el premio al tercer lugar:</strong> sera la medalla del tercer lugar, la canasta de regalo junior, y un camiseta de la carrera</p>
                                         </div>
 
                                     </div>
@@ -143,7 +233,7 @@
                                                 aria-expanded="false"
                                                 aria-controls="flush-collapseTwo">
 
-                                            Categorias #2
+                                            Categoria #2 parejas
 
                                         </button>
                                     </h2>
@@ -154,9 +244,10 @@
                                         data-bs-parent="#accordionFlushExample">
 
                                         <div class="accordion-body">
-                                            Esta es la descripción del segundo elemento.
-                                            Puedes agregar párrafos, imágenes, tablas
-                                            o cualquier contenido HTML.
+                                                 <p><strong>premio al primer lugar:</strong> los ganadores recibiran 2 parlantes bluethoo,una figuras coleccionables y el trofeo correspondiente a la categoria</p>
+                                            <p><strong>el premio al segundo lugar:</strong> el premio al segundo lugar sera una medalla por su participacion, un termo de la carrera,soporte ergonomico para laptops  </p>
+                                            <p><strong>el premio al tercer lugar:</strong> sera la medalla del tercer lugar, camiseta de la carrera y kits universitarios </p>
+                                       
                                         </div>
 
                                     </div>
@@ -173,7 +264,7 @@
                                                 aria-expanded="false"
                                                 aria-controls="flush-collapseThree">
 
-                                            Categorias #3
+                                            Categoria #3 juego por equipos
 
                                         </button>
                                     </h2>
@@ -184,35 +275,179 @@
                                         data-bs-parent="#accordionFlushExample">
 
                                         <div class="accordion-body">
-                                            Esta es la descripción del tercer elemento.
-                                            Al hacer clic en el encabezado, se mostrará
-                                            este contenido.
+                                              <p><strong>premio al primer lugar:</strong> los ganadores recibiran tarjetas de regalo de steam cada uno, el respectivo trofeo de a categoria, canasta de regalos para sus participantes</p>
+                                            <p><strong>el premio al segundo lugar:</strong> el premio al segundo lugar sera una medalla por su participacion, peluches de videojuegos, canastas de regalo junior</p>
+                                            <p><strong>el premio al tercer lugar:</strong> sera la medalla del tercer lugar,memorias usb  </p>
+                                       
                                         </div>
 
                                     </div>
                                 </div>
+                                <div class="accordion-item">
 
+                                    <h2 class="accordion-header" id="flush-headingfour">
+                                        <button class="accordion-button collapsed"
+                                                type="button"
+                                                data-bs-toggle="collapse"
+                                                data-bs-target="#flush-collapsefour"
+                                                aria-expanded="false"
+                                                aria-controls="flush-collapsefour">
+
+                                            Categoria #4 modalidad por equipos mixtos
+
+                                        </button>
+                                    </h2>
+
+                                    <div id="flush-collapsefour"
+                                        class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingfour"
+                                        data-bs-parent="#accordionFlushExample">
+
+                                        <div class="accordion-body">
+                                               <p><strong>premio al primer lugar:</strong> los ganadores recibiran ventiladores de refrigeracion para laptops, el respectivo trofeo de la categoria </p>
+                                            <p><strong>el premio al segundo lugar:</strong> el premio al segundo lugar sera una medalla por su participacion, canastas de regalo junior </p>
+                                            <p><strong>el premio al tercer lugar:</strong> sera la medalla del tercer lugar llaveros personalizados</p>
+                                       
+                                        </div>
+
+                                    </div>
+                                </div>
                             </div>
 
                         </div>
                                                 
                     </div>
+                     <div class="col-12 col-xl-6 mb-2">
+                 <img src="imagenes/premios.png" alt="telefono" class="img-fluid rounded" width="100%" height="auto">
+                    </div>
                 </div>
-            </div>
 
+                   
+            </div>
+    </div>
+  </div>
+</div>
+
+                
+
+</section>
+           <section id="ubicacion" class="container py-5">
             <div class="container-fluid">
-                <div class="row text-center">
-                    <div class="col-6 col-xl-6">
+                <div class="card">
+    <div class="card-body">
+<div class="row text-center">
+            <div class="col-12 col-xl-12">
+                <h2>Ubicacion</h2>
+                <p>el evento se llevara acabo en la espe belisario en el 4 piso, las aulas a 401,402,403 seran usadas para los eventos individuales, las aulas 404,405 para los eventos de duos, las aulas 406,407 para los eventos de equipos y las aulas 408,409 y 410 para los eventos de equipos mixtos</p>
+                <div class="col-12 mt-1">
+            <div class="ratio ratio-21x9">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.2131015806813!2d-78.58354179999999!3d-0.9979821000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d4639e7c398d3f%3A0xc4999bdc40abfc48!2sUniversidad%20De%20Las%20Fuerzas%20Armadas%20ESPE%20Extensi%C3%B3n%20Belisario%20Quevedo!5e0!3m2!1ses-419!2sec!4v1793237753330!5m2!1ses-419!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+        </div>
+            </div>
+    </div>
+  </div>
+</div>
+        
+</section>
+           <section id="inscripcion" class="container py-5">
+                <div class="container-fluid">
+                      <div class="card">
+                                <div class="card-body">
+                            <div class="row text-center">
+                                    <div class="col-6 col-xl-6">
+                                         <h2>formulario</h2>
+                                    </div>
+                                </div>
+                            </div>
+    </div>
+  </div>
+</div>
+                                
+
+</section>
+            
+            <div class="container-fluid">
+                  <div class="card">
+    <div class="card-body">
+         <div class="row text-center">
+                    <div class="col-12 col-xl-12">
+                          <div class="row text-center">
+                            <div class="col-12">
+                                <h1 class="mb-4">
+                                    <strong><em>Auspiciantes </em></strong>
+                                </h1>
+                            </div>
+                        </div>
+
+                        <!-- Productos -->
+                        <div class="row text-center">
+                        
+                                    <div class="col-12 col-xl-4 mb-4">
+                                        <div class="row align-items-center">
+                                            <div class="col-5 col-lg-12 order-2 order-lg-1">
+                                                <img src="imagenes/nex.png"
+                                                    alt="Macetas decorativas"
+                                                    class="rounded-circle img-fluid w-75">
+                                            </div>
+                                            <div class="col-7 col-lg-12 order-1 order-lg-2 mt-2">
+                                                   <blockquote class="blockquote">
+                            <h1 class="display-4 fw-bold"><strong>NEXTECH</strong>.</h1>
+                        </blockquote>
+                            <cite title="Source Title"><strong>Tu pasion, nuestro equipo</strong>
+                                            </div>
+                                        </div>
+                                    </div>
+                            
+                            <!-- Producto 1: Macetas decorativas -->
+                        
+                            
+                                        <div class="col-12  col-xl-4 mb-4">
+                                            <div class="row align-items-center">
+                                                <div class="col-5 col-lg-12">
+                                                    <img src="imagenes/pixel.png"
+                                                        alt="Velas artesanales"
+                                                        class="rounded-circle img-fluid w-75">
+                                                </div>
+                                                <div class="col-7 col-lg-12 mt-2">
+                                                       <blockquote class="blockquote">
+                            <h1 class="display-4 fw-bold"><strong>PixelBites</strong>.</h1>
+                        </blockquote>
+                            <cite title="Source Title"><strong>comida que te da mas juego</strong>
+                                                </div>
+                                            </div>
+                                
+
+                            
+                            </div>
+                                        <div class="col-12  col-xl-4 mb-4">
+                                            <div class="row align-items-center">
+                                                <div class="col-5 col-lg-12 order-2 order-lg-1">
+                                                    <img src="imagenes/astra.png"
+                                                        alt="Recuerdos de boda y cumpleaños"
+                                                        class="rounded-circle img-fluid w-75">
+                                                </div>
+                                                <div class="col-7 col-lg-12 mt-2 order-1 order-lg-2">
+                                                       <blockquote class="blockquote">
+                            <h1 class="display-4 fw-bold"><strong>ASTRA NET</strong>.</h1>
+                        </blockquote>
+                            <cite title="Source Title"><strong>Conexion sin limites</strong>
+                                                </div>
+                                            </div>
+                                        </div>
+                                
+
+                        
+        
+                                
+
                     </div>
                 </div>
             </div>
-
-            <div class="container-fluid">
-                <div class="row text-center">
-                    <div class="col-6 col-xl-6">
-                    </div>
-                </div>
-            </div>
+    </div>
+  </div>
+</div>
+               
 
             <div class="container-fluid">
                 <div class="row text-center">
@@ -227,7 +462,7 @@
 
 <footer class="bg-success text-center">
     <div class="container-fluid">
-        <div class="row rounded-3 py-3" style="background-color: rgba(148, 235, 95, 0.671);">
+        <div class="row rounded-3 py-3" style="background-color: rgba(99, 122, 224, 0.671);">
             <div class="col-12 ">
                         © 2026 Copyright:
                         <a class="text-dark" href="https://mdbootstrap.com/">nankaec@gmail.com</a>
@@ -235,10 +470,10 @@
                            <h3>Síguenos en nuestras redes sociales</h3>
 
                              <div class="col-4 col-lg-4">
-                                <a href="https://www.facebook.com/nankayec/?locale=es_LA" target="_blank"><i class="bi bi-facebook fs-1"></i> </a>
+                                <a href="https://www.facebook.com/gamerfest.ec/" target="_blank"><i class="bi bi-facebook fs-1"></i> </a>
                             </div>
                              <div class="col-4 col-lg-4">
-                                      <a href="https://www.instagram.com/nankayec/" target="_blank"><i class="bi bi-instagram fs-1"></i> </a>
+                                      <a href="https://www.instagram.com/gamerfest.ec/" target="_blank"><i class="bi bi-instagram fs-1"></i> </a>
                             
                             </div>
                              <div class="col-4 col-lg-4">
